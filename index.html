@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Premier site</title>
+    <link rel="stylesheet" href="css/knacss.min.css">
+    <link rel="stylesheet" href="css/indexSansGrid.css">
+
+</head>
+<body>
+    <header>
+        <img src="img/logoCouleur.jpg" />
+        <div>
+            <p class="textHeader" id="deb">Pour être enchanté......</p>
+            <p class="textHeader" id="fin">....rien ne vaut une séance de ciné</p>
+        </div>
+        <nav>
+                <ul>
+                    <li><a href="#film1">Le sens de la fête</a></li>
+                    <li><a href="#film2">Pour Sama</a></li>
+                    <li><a href="#film3">Once Upon...</a></li>
+                    <li><a href="#film4">Roubaix, une lumière</a></li>
+                    <li><a href="#film5">The bra</a></li>
+                </ul>
+        </nav>
+    </header>
+<!-- Ajouter ici du code php pour lire la table film de la base de données
+ et démarrer une boucle while qui va, à chaque ligne de la table film, construire le bloc <article>
+ le numero du film doit être variable-->
+    <article class="tab" id="film1">
+<!-- l'affiche du film doit être variable avec du code php -->
+        <img src="img/films/sensdelafete.jpg" />
+        <div>
+<!-- mettre du code php à la place de ces éléments h1,h2,h3,h4,p -->
+            <h1>Le sens de la fête</h1>
+            <h2>France, Duree 1h 56mn</h2>
+            <h3>Réalisateur : Eric Toledano, Olivier Nakache</h3>
+            <h4>Interprètes : Jean-Pierre Bacri, Gilles Lellouche, Eye Haïdara</h4>
+            <p>Synopsis : Max est traiteur depuis trente ans. Des fêtes il en a organisé des centaines, il est même un peu au bout du parcours. Aujourd'hui c'est un sublime mariage dans un château du 17ème siècle, un de plus, celui de Pierre et Héléna. Comme d'habitude, Max a tout coordonné : il a recruté sa brigade de serveurs, de cuisiniers, de plongeurs, il a conseillé un photographe, réservé l'orchestre, arrangé la décoration florale, bref tous les ingrédients sont réunis pour que cette fête soit réussie </p>
+        </div>
+    </article>
+<!-- fermer la boucle et vous pouvez vous passer des blocs <article> suivants -->
+    <article class="tab" id="film2">
+        <img src="img/films/FORSAMAAFFICHE.JPG" />
+        <div>
+            <h1>For Sama  </h1>
+            <h2>Grande-Bretagne, U.S.A., Duree 1h 35min</h2>
+            <h3>Réalisateurs : Waad al-Kateab, Edward Watts </h3>
+            <h4>Documentaire</h4>
+            <p>Synopsis : Waad al-Kateab est une jeune femme syrienne qui vit à Alep lorsque la guerre éclate en 2011. Elle filme au quotidien les pertes, les espoirs et la solidarité du peuple d’Alep. </p>
+        </div>
+    </article>
+    <article class="tab" id="film3">
+        <img src="img/films/ONCEUPONATIMEINHOLLYWOODAFFICHE.JPG" />
+        <div>
+            <h1>Once Upon A Time...in Hollywood </h1>
+            <h2>U.S.A.,Duree 2h 41min</h2>
+            <h3>Réalisateur : Quentin Tarantino </h3>
+            <h4>Interprètes Emile Hirsch, Leonardo Dicaprio, Margaret Qualley, Brad Pitt, Timothy Olyphant </h4>
+            <p>Synopsis : En 1969, la star de télévision Rick Dalton et le cascadeur Cliff Booth, sa doublure de longue date, poursuivent leurs carrières au sein d’une industrie qu’ils ne reconnaissent plus.</p>
+        </div>
+    </article>
+    <article class="tab" id="film4">
+        <img src="img/films/OHMERCYAFFICHE.JPG" />
+        <div>
+            <h1>Roubaix, une lumière  </h1>
+            <h2>France, Duree 1h 59min</h2>
+            <h3>Réalisateur : Arnaud Desplechin  </h3>
+            <h4>Interprètes : Roschdy Zem, Léa Seydoux, Sara Forestier, Antoine Reinartz, Chloé Simoneau </h4>
+            <p>Synopsis À Roubaix, un soir de Noël, Daoud le chef de la police locale et Louis, fraîchement diplômé, font face au meurtre d’une vieille femme. Les voisines de la victime, deux jeunes femmes, Claude et Marie, sont arrêtées. Elles sont toxicomanes, alcooliques, amantes… </p>
+        </div>
+    </article>
+    <article class="tab" id="film5">
+        <img src="img/films/THEBRAAFFICHE.JPG" />
+        <div>
+            <h1>The Bra </h1>
+            <h2>Allemagne, Duree 1h 30min</h2>
+            <h3>Réalisateur Veit Helmer </h3>
+            <h4>Interprètes : Predrag 'Miki' Manojlovic, Denis Lavant, Chulpan Khamatova, Ismail Quluzade, Maïa Morgenstern </h4>
+            <p>Synopsis : Un conducteur de train, Nurlan, arrache un soutien-gorge bleu à une corde à linge. Pour échapper à son existence solitaire, Nurlan se lance dans la plus grande aventure de sa vie : retrouver la propriétaire de ce sous- vêtement … </p>
+        </div>
+    </article>
+    <footer>
+        <p>Cinéma le parnal, 260 rue St François de Sales 74570 Fillière</p>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</body>
+</html>
